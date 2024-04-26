@@ -9,6 +9,7 @@ const array = [
 
 
 const groupMapReduce = array.reduce((map, element) => {
+
     const city = element.city;
 
     if(map[city]) //if map[city] exist then storing again the already existing array other wise return an empty array for first time
